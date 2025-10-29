@@ -1,6 +1,14 @@
-# Ignore build or native files
+# Ignore platform-specific and generated code
 android/** linguist-vendored
 ios/** linguist-vendored
+linux/** linguist-vendored
+windows/** linguist-vendored
+macos/** linguist-vendored
 build/** linguist-vendored
-cpp/** linguist-vendored
+
+# Mark Dart code explicitly
 lib/** linguist-language=Dart
+test/** linguist-language=Dart
+
+# Ignore assets or generated files
+assets/** linguist-vendored
