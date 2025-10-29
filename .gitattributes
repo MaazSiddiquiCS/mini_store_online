@@ -1,0 +1,5 @@
+# Ignore build or native files
+android/** linguist-vendored
+ios/** linguist-vendored
+build/** linguist-vendored
+cpp/** linguist-vendored
